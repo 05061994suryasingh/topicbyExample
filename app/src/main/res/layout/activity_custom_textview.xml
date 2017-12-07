@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_custom_textview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.chromeinfotech.myfirst.UI.Customview.CustomeTextview.MyTextView
+        android:layout_width="match_parent"
+        android:text="Hello surya"
+        android:textSize="16sp"
+        android:layout_height="100dp"/>
+    <com.chromeinfotech.myfirst.UI.Customview.CustomeTextview.MyTextView
+        android:layout_width="match_parent"
+        android:text="Hello surya"
+        android:layout_marginTop="150dp"
+        android:textSize="16sp"
+        android:layout_height="100dp"/>
+</RelativeLayout>

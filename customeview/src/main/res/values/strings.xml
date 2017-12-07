@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomeView</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment1">Hello blank fragment</string>
+    <string name="fragment2">Hello blank fragment</string>
+    <bool name="isdualfragement">false</bool>
+</resources>

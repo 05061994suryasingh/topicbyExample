@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_serializable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chromeinfotech.myfirst.UI.serialization.SerializableActivity">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="name"/>
+    <TextView
+        android:id="@+id/capital"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:hint="capital"/>
+    <TextView
+        android:id="@+id/population"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:hint="population"/>
+</RelativeLayout>

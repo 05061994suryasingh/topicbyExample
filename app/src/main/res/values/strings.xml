@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Myfirst</string>
+    <string name="action_add">action_add</string>
+    <string name="action_reset">action_reset</string>
+    <string name="action_about">action_about</string>
+    <string name="action_exit">action_exit</string>
+    <string name="title_activity_frame_layout">FrameLayout</string>
+    <string name="country_prompt">Choose_date</string>
+    <string-array name="DD">
+        <item>DD</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+    </string-array>
+    <string-array name="MM">
+        <item>MM</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>Auguest</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="YY">
+        <item>YYYY</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+    </string-array>
+    <string name="title_activity_scrollview">Scrollview</string>
+    <string name="title_activity_custome_textview">CustomeTextview</string>
+    <string name="title_activity_mainserialization">Mainserialization</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

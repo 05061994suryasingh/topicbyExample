@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chromeinfotech.listview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.chromeinfotech.ui.listview.simpleListView.Simplelistview" />
+        <activity android:name="com.chromeinfotech.ui.listview.arrayAdapter.myarrayadapterActivity" />
+        <activity android:name="com.chromeinfotech.ui.MainActivity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.chromeinfotech.ui.listview.baseAdapter.MybaseAdapterActivity" />
+        <activity android:name="com.chromeinfotech.ui.listview.baseAdapter.MycacheBaseAdapterActivity" />
+        <activity android:name="com.chromeinfotech.ui.ExpandableList.BaseExpandapleActivity" />
+        <activity android:name="com.chromeinfotech.ui.multicell.MulticellActivity" />
+        <activity android:name="com.chromeinfotech.ui.GridView.GridViewActivity" />
+        <activity android:name="com.chromeinfotech.ui.GridView.Gridviewmulticell.GridAdapteractivity" />
+        <activity android:name="com.chromeinfotech.ui.ViewPager.Viewpagerwithfragement.ViewPagerActivity" />
+        <activity android:name="com.chromeinfotech.ui.ViewPager.ViewPagerActivity1" />
+        <!--<activity android:name="com.chromeinfotech.ui.listview.listviewchekbox.ListviewCheckbox" >-->
+        <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+        <!--</intent-filter></activity>-->
+        <activity android:name="com.chromeinfotech.ui.ViewPager.Viewpagerwithfragement.viewpagerfragement.ViewPagerActivity"></activity>
+    </application>
+
+</manifest>

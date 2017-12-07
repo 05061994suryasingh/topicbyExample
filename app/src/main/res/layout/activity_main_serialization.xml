@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_serialization"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chromeinfotech.myfirst.UI.serialization.MainSerialization">
+<Button
+    android:text="Serializable"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/Serializable"/>
+    <Button
+        android:id="@+id/parcable"
+        android:text="parcable"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

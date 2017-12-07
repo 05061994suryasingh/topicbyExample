@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<records>
+    <Student>
+        <name>surya</name>
+        <surname>singh</surname>
+        <address>patna</address>
+    </Student>
+
+    <Student>
+        <name>Amit </name>
+        <surname>Singh</surname>
+        <address>ghazipur</address>
+    </Student>
+
+    <Student>
+        <name>Lalit</name>
+        <surname>kumar</surname>
+        <address>Ghaziabad</address>
+    </Student>
+
+    <Student>
+        <name>Aman</name>
+        <surname>kumar</surname>
+        <address>delhi</address>
+    </Student>
+
+    <Student>
+        <name>Rohit</name>
+        <surname>Soni</surname>
+        <address>patna city</address>
+    </Student>
+
+</records>

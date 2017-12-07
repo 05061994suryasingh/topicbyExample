@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Actionbar" />
+            <option value="$PROJECT_DIR$/BroadcastReceiver" />
+            <option value="$PROJECT_DIR$/MapTest" />
+            <option value="$PROJECT_DIR$/androidstorage" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bitmapassignment" />
+            <option value="$PROJECT_DIR$/contentprovider" />
+            <option value="$PROJECT_DIR$/customeview" />
+            <option value="$PROJECT_DIR$/databaseassignment" />
+            <option value="$PROJECT_DIR$/dialog" />
+            <option value="$PROJECT_DIR$/fbintegrationassignment" />
+            <option value="$PROJECT_DIR$/floatinglableedittext" />
+            <option value="$PROJECT_DIR$/googleloginintegration" />
+            <option value="$PROJECT_DIR$/jsonparsing" />
+            <option value="$PROJECT_DIR$/listview" />
+            <option value="$PROJECT_DIR$/myexception" />
+            <option value="$PROJECT_DIR$/mythread" />
+            <option value="$PROJECT_DIR$/navigationdrawer" />
+            <option value="$PROJECT_DIR$/servicewithplaymusic" />
+            <option value="$PROJECT_DIR$/twitterintegration" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

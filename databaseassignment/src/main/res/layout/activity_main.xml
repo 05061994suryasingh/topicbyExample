@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.chromeinfotech.databaseassignment.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:text="id"
+        android:id="@+id/tv_id"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv_id"
+        android:text="name"
+        android:id="@+id/tv_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv_name"
+        android:text="father name"
+        android:id="@+id/tv_fname"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tv_fname"
+        android:text="address"
+        android:id="@+id/tv_address"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_id"
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_name"
+        android:layout_below="@+id/edt_id"
+        android:layout_marginLeft="100dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_fname"
+        android:layout_below="@+id/edt_name"
+        android:layout_marginLeft="100dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_address"
+        android:layout_below="@+id/edt_fname"
+        android:layout_marginLeft="100dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnretrive"
+        android:text="Retrive data"
+        android:layout_marginTop="250dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btninsert"
+        android:text="insert"
+        android:layout_toEndOf="@+id/btnretrive"
+        android:layout_marginTop="250dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnupdate"
+        android:text="update"
+        android:layout_toEndOf="@+id/btninsert"
+        android:layout_marginTop="250dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btndelete"
+        android:text="delete"
+        android:layout_toEndOf="@+id/btnupdate"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnviewall"
+        android:text="view all"
+        android:layout_marginTop="300dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnclear"
+        android:text="clear"
+        android:layout_toEndOf="@+id/btnviewall"
+        android:layout_marginTop="300dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_viewall"
+                />
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

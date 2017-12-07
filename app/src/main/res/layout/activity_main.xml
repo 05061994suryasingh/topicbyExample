@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.mainresource.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText1"
+                android:layout_alignBottom="@+id/editText1"
+                android:layout_alignParentLeft="true"
+                android:text="Enter second number:" />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Enter first nmber:" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText2"
+                android:layout_marginTop="120dp"
+                android:layout_alignBottom="@+id/editText2"
+                android:layout_alignParentLeft="true"
+                android:text="result:" />
+            <EditText
+                android:id="@+id/editTextname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:inputType="number"
+                android:layout_toRightOf="@+id/textView1"
+                android:ems="10" />
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:inputType="number"
+                android:layout_marginTop="61dp"
+                android:layout_toRightOf="@+id/textView1"
+                android:ems="10" />
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/textView1"
+                android:ems="10" />
+            <Button
+                android:text="go to relative"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:id="@+id/btnAct"/>
+            <Button
+                android:text="go to activity two"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:id="@+id/btnAct1"/>
+            <Button
+                android:text="go to linear"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                android:id="@+id/buttonlinear"/>
+            <Button
+                android:text="go to framlayout"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="200dp"
+                android:id="@+id/btnAct2"/>
+            <Button
+                android:text="go to tablelayot"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="250dp"
+                android:id="@+id/btnAct3"/>
+            <Button
+                android:text="go to login"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="300dp"
+                android:id="@+id/btnAct4"/>
+            <Button
+                android:text="go to radiobtn screen"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="350dp"
+                android:id="@+id/btnAct5"/>
+            <Button
+                android:text="go to webview screen"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="400dp"
+                android:id="@+id/btnAct6"/>
+            <Button
+                android:text="go to scrollview screen"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="450dp"
+                android:id="@+id/btnAct7"/>
+            <Button
+                android:text="go to Dynamic linear layout"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="500dp"
+                android:id="@+id/btnAct8"/>
+            <Button
+                android:text="go to Drawable_image"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="550dp"
+                android:id="@+id/btnAct9"/>
+            <Button
+                android:text="go to sun shine"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="600dp"
+                android:id="@+id/btnAct10"/>
+            <Button
+                android:text="go to implisitactivity"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="650dp"
+                android:id="@+id/btnimplicitactivity"/>
+            <Button
+                android:text="go to logfilescreen"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="700dp"
+                android:id="@+id/btnlog"/>
+            <Button
+                android:text="go to serializablescreen"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="750dp"
+                android:id="@+id/btnSerializable"/>
+            <Button
+                android:text="go to fragement screen"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="800dp"
+                android:id="@+id/btnfragement"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

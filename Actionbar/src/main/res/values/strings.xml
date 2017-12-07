@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Actionbar</string>
+    <string name="Share">Share</string>
+    <string name="Search">Search</string>
+    <string name="about">about</string>
+    <string name="exit">exit</string>
+</resources>

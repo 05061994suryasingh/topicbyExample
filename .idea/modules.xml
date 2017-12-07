@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Actionbar/Actionbar.iml" filepath="$PROJECT_DIR$/Actionbar/Actionbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BroadcastReceiver/BroadcastReceiver.iml" filepath="$PROJECT_DIR$/BroadcastReceiver/BroadcastReceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapTest/MapTest.iml" filepath="$PROJECT_DIR$/MapTest/MapTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Myfirst.iml" filepath="$PROJECT_DIR$/Myfirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidstorage/androidstorage.iml" filepath="$PROJECT_DIR$/androidstorage/androidstorage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bitmapassignment/bitmapassignment.iml" filepath="$PROJECT_DIR$/bitmapassignment/bitmapassignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contentprovider/contentprovider.iml" filepath="$PROJECT_DIR$/contentprovider/contentprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customeview/customeview.iml" filepath="$PROJECT_DIR$/customeview/customeview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databaseassignment/databaseassignment.iml" filepath="$PROJECT_DIR$/databaseassignment/databaseassignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fbintegrationassignment/fbintegrationassignment.iml" filepath="$PROJECT_DIR$/fbintegrationassignment/fbintegrationassignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatinglableedittext/floatinglableedittext.iml" filepath="$PROJECT_DIR$/floatinglableedittext/floatinglableedittext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googleloginintegration/googleloginintegration.iml" filepath="$PROJECT_DIR$/googleloginintegration/googleloginintegration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsonparsing/jsonparsing.iml" filepath="$PROJECT_DIR$/jsonparsing/jsonparsing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myexception/myexception.iml" filepath="$PROJECT_DIR$/myexception/myexception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mythread/mythread.iml" filepath="$PROJECT_DIR$/mythread/mythread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" filepath="$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicewithplaymusic/servicewithplaymusic.iml" filepath="$PROJECT_DIR$/servicewithplaymusic/servicewithplaymusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twitterintegration/twitterintegration.iml" filepath="$PROJECT_DIR$/twitterintegration/twitterintegration.iml" />
+    </modules>
+  </component>
+</project>

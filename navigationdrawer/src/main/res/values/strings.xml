@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NavigationDrawer</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Profile</item>
+        <item>Album</item>
+        <item>Earning</item>
+        <item>Ratings</item>
+        <item>Settings</item>
+        <item>Help</item>
+        <item>Logout</item>
+    </string-array>
+</resources>

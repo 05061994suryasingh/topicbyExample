@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_share_preferencewithlist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chromeinfotech.androidstorage.SharedPreferences.SharePreferencewithlist">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtid" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtname"
+        android:layout_marginTop="30dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtfname"
+        android:layout_marginTop="60dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtaddress"
+        android:layout_marginTop="90dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:id="@+id/btnsave"
+        android:text="save"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_toEndOf="@+id/btnsave"
+        android:text="Retrive"
+        android:id="@+id/btnretrive"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_toEndOf="@+id/btnretrive"
+        android:text="clear"
+        android:id="@+id/btnclear"/>
+</RelativeLayout>

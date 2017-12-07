@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnsimplelistview"
+        android:layout_centerHorizontal="true"
+        android:text="simle listview"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnarrayadapter"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnsimplelistview"
+        android:text="simle arrayAdapter"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnbaseadapter"
+        android:layout_below="@+id/btnarrayadapter"
+        android:layout_centerHorizontal="true"
+        android:text="BaseAdapter"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncachebaseadapter"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnbaseadapter"
+        android:text="cacheBaseAdapter"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExpandablelise"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btncachebaseadapter"
+        android:text="BaseexpandableScreen"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnmulticell"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnExpandablelise"
+        android:text="multicellScreen"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btngridmulticell"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnmulticell"
+        android:text="gridmulticellScreen"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnviewPager"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btngridmulticell"
+        android:text="goto viewPager"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnviewPager1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnviewPager"
+        android:text="goto viewPager1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlistview"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnviewPager1"
+        android:text="goto_listviewcheck"/>
+</RelativeLayout>

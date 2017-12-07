@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="end"
+        android:divider="@drawable/divider_drawable"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="5dp"
+            android:id="@+id/txttitle"
+            android:textSize="15sp"
+            android:textColor="@color/Red"
+            android:gravity="center|start"
+            android:layout_weight="0.8"
+            android:text="title"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cross_icon"
+            android:id="@+id/imgcansil"
+            android:layout_weight="0.2"
+            android:layout_alignParentRight="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:showDividers="end"
+        android:divider="@drawable/divider_drawable">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/Red"
+            android:id="@+id/txtmsg"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:showDividers="end"
+        android:divider="@drawable/divider_drawable">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnyes"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@color/colorAccent"
+            android:text="yes">
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnno"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@color/Red"
+            android:text="no">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

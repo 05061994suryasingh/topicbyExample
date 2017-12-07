@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_fragement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chromeinfotech.myfirst.UI.AvtivityExample.MainFragementActivity">
+
+    <fragment android:name="com.chromeinfotech.myfirst.UI.AvtivityExample.Fragment_one"
+        android:id="@+id/Fragment_one"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     />
+
+    <fragment android:name="com.chromeinfotech.myfirst.UI.AvtivityExample.Fragment_two"
+        android:id="@+id/Fragment_two"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

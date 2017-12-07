@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ServicewithPlayMusic</string>
+    <string name="myservice">Service Description</string>
+    <string name="MyBindservice">MyBindservice discription</string>
+    <string name="MyIntentservice">MyIntentservice description</string>
+
+</resources>
